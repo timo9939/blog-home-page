@@ -1,8 +1,12 @@
 *{
     box-sizing: border-box;
     margin: 0;
+    color: black;
 }
 
+body{
+    background-color:lightblue ;
+}
 
 /* Nav Bar CSS start */
 header{
@@ -88,5 +92,43 @@ border: 1px solid rgb(255, 255, 255);
 /* End of nav bar */
 
 aside{
+background-color: aliceblue;
+height: max-content;
+padding-top: 10vh;
+padding-bottom: 10vh;
 
+grid-area: aside;
+}
+
+aside ul .fa-solid{
+scale: 1.6;
+
+}
+
+
+aside ul{
+display: flex;
+flex-direction: column;
+gap: 1.5em;
+}
+
+aside ul li{
+    display: flex;
+    column-gap: 2em;
+    align-items: baseline;
+}
+
+aside ul li a{
+    font-size: 1.5em;
+
+}
+
+.main-grid{
+    grid-area: 2/2;
+}
+
+main{
+    background-color: aliceblue;
+    border: 1px solid black;
+    grid-area: main;
 }

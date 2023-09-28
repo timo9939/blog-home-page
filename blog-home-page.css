@@ -7,7 +7,71 @@ header{
     background-color: rgba(22, 69, 255, 0.744);
     color:white;
     display: flex;
+    justify-content: space-between;
+    padding: 1vw;
+
 }
 
+/* nav{
+    width: 80%;
+} */
 
+ .nav-and-logo{
+    width: 90vw;
+    display: flex;
+} 
+/* .nav-and-logo{
+    margin-left: auto;
+} */
+
+
+nav ul{
+    /* position: absolute;
+    left: 30%; */
+
+    border: 1px solid black;
+    width: 50vw;
+    list-style: none;
+    
+    display: flex;
+    justify-content: space-around;
+    /* margin-left: auto; */
+    font-size: 1.5em;
+    
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+.logo-and-name{
+    /* background-color:black; */
+
+    display: flex;
+    align-items: center;
+    gap: 2em;
+
+    width: 20vw;
+    height: max-content;
+    border: 1px solid black;
+}
+
+.fa-solid{
+scale: 2;
+}
+
+header span{
+    font-size: 1.5em;
+}
+
+/* .background_logo{
+
+
+    width: 4.5vh;
+    height: 4.5vh;
+
+border: 1px solid rgb(255, 255, 255);
+    border-radius: 50%;
+} */
 

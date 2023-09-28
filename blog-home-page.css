@@ -99,7 +99,7 @@ height: max-content;
 padding-top: 10vh;
 padding-bottom: 10vh;
 
-grid-area: aside;
+grid-area: 1/1/2/2;
 }
 
 aside ul .fa-solid{
@@ -125,20 +125,26 @@ aside ul li a{
 
 }
 
-/* main */
+/* Top Sellers */
 
 .main-grid{
     display: grid;
-    grid-template-areas: "aside main";
+    grid-template-rows: 1fr 1fr 1fr;
+   grid-template-columns: 20vw 70vw;
 }
 
 main{
-    background-color: aliceblue;
-    border: 1px solid black;
 
+    border: 1px solid black;
+    margin-right: 10%;
+
+}
+main h2{
+    background-color: aliceblue;
 }
 
 .mainSection{
+    background-color: aliceblue;
     display: grid;
     grid-template-rows:repeat(3,1fr) ;
     grid-template-columns: repeat(5,1fr);
@@ -161,4 +167,20 @@ main{
 
 .card-layout8{
     grid-area: 2/4/3/5;
+}
+
+/* Top Articles */
+.top-articles{
+    border-top: 1px solid gray;
+}
+
+.article-container article img{
+    width: 280px;
+    height: 150px;
+}
+
+.article-container{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
 }

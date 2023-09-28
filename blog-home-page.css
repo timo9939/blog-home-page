@@ -19,6 +19,9 @@ header{
 
 }
 
+header h1{
+    color: white;
+}
 /* nav{
     width: 80%;
 } */
@@ -58,7 +61,6 @@ nav ul li a{
 }
 
 .logo-and-name{
-    /* background-color:black; */
 
     display: flex;
     align-items: center;
@@ -123,12 +125,40 @@ aside ul li a{
 
 }
 
+/* main */
+
 .main-grid{
-    grid-area: 2/2;
+    display: grid;
+    grid-template-areas: "aside main";
 }
 
 main{
     background-color: aliceblue;
     border: 1px solid black;
-    grid-area: main;
+
+}
+
+.mainSection{
+    display: grid;
+    grid-template-rows:repeat(3,1fr) ;
+    grid-template-columns: repeat(5,1fr);
+}
+
+
+.mainSection div img{
+    width: 80px;
+    height: 80px;
+    border-radius:50px ;
+}
+
+.card-layout6{
+    grid-area: 2/2/3/3;
+}
+
+.card-layout7{
+    grid-area: 2/3/3/4;
+}
+
+.card-layout8{
+    grid-area: 2/4/3/5;
 }

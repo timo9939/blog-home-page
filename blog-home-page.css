@@ -1,0 +1,13 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+header{
+    background-color: rgba(22, 69, 255, 0.744);
+    color:white;
+    display: flex;
+}
+
+
+

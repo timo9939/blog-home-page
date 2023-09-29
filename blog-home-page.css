@@ -183,4 +183,13 @@ main h2{
     display: grid;
     grid-template-rows: 1fr 1fr;
     grid-template-columns: 1fr 1fr;
+
+    grid-auto-rows: 1fr;
 }
+
+.article-container article{
+    display: flex;
+}
+
+/* Search Bar */
+

@@ -8,6 +8,10 @@ body{
     background-color:lightblue ;
 }
 
+section{
+    padding: 2em;
+}
+
 /* Nav Bar CSS start */
 header{
     background-color: rgba(22, 69, 255, 0.744);
@@ -135,8 +139,9 @@ aside ul li a{
 
 main{
 
-    border: 1px solid black;
+    /* border: 1px solid black; */
     margin-right: 10%;
+    padding-left: 5em;
 
 }
 main h2{
@@ -172,6 +177,7 @@ main h2{
 /* Top Articles */
 .top-articles{
     border-top: 1px solid gray;
+    background-color: aliceblue;
 }
 
 .article-container article img{
@@ -192,4 +198,45 @@ main h2{
 }
 
 /* Search Bar */
+.search{
+    position: relative;
+    border: 1px solid black;
+    background-color: aliceblue;
+    padding: 1em;
+
+    height: 15vh;
+    margin-top: 4rem;
+}
+
+.search form{
+    position: relative;
+    top: 2em;
+}
+
+.search form input{
+position: relative;
+    width: 80%;
+    height: 5vh;
+
+    border-radius:30px;
+    border:1px solid gainsboro ;
+}
+
+.search form button{
+    position: relative;
+    left: 5rem;
+
+    width: 5vw;
+    height: 5vh;
+
+    border-radius: 30px;
+
+    color: white;
+    background-color: rgba(42, 137, 246, 0.726);
+    border: none;
+}
+
+.search form button:hover{
+    background-color: rgb(40, 105, 245);
+}
 

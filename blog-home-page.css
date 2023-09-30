@@ -131,12 +131,16 @@ aside ul li{
     column-gap: 2em;
     align-items:center;
 
-    background-color: rgba(129, 175, 254, 0.324);
+    
     width: 100%;
     height: 2.5em;
     padding: 1.5em;
 
     border-radius: 20px;
+}
+
+aside ul li:hover{
+    background-color: rgba(129, 175, 254, 0.324);
 }
 
 aside ul li a{
@@ -160,7 +164,7 @@ main{
     padding-left: 5em;
 
 }
-main h2{
+main>h2{
     background-color: aliceblue;
     padding-left: 2rem;
     padding-top: 2rem;
@@ -201,6 +205,7 @@ main h2{
 .top-articles{
     border-top: 1px solid gray;
     background-color: aliceblue;
+ 
 }
 
 .article-container article img{
@@ -210,14 +215,28 @@ main h2{
 
 .article-container{
     display: grid;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 1fr ;
     grid-template-columns: 1fr 1fr;
 
     grid-auto-rows: 1fr;
 }
 
 .article-container article{
+    padding-top: 2rem;
     display: flex;
+}
+
+.article-container article>div{
+    margin-left:1em ;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    font-size: 1.2rem;
+}
+
+.article-container article>div p{
+    font-size: 0.9rem;
+    padding-top: 1.2em;
 }
 
 

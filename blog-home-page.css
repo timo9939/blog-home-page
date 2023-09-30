@@ -270,6 +270,16 @@ position: relative;
     border:1px solid gainsboro ;
 }
 
+.search>form>input::placeholder{
+    padding-left: 2rem;
+}
+
+/* Searchbar input content starting position */
+.search>form>input:focus{
+   
+
+}
+
 .search form button{
     position: relative;
     left: 5rem;

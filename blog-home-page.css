@@ -153,8 +153,10 @@ aside ul li a{
 
 .main-grid{
     display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: 1fr  ;
    grid-template-columns: 20vw 70vw;
+
+
 }
 
 main{
@@ -162,6 +164,7 @@ main{
     /* border: 1px solid black; */
     margin-right: 5%;
     padding-left: 5em;
+    padding-bottom: 10vh;
 
 }
 main>h2{
@@ -249,7 +252,7 @@ main>h2{
     background-color: aliceblue;
     padding: 1em;
 
-    height: 15vh;
+    height: 20vh;
     margin-top: 4rem;
 }
 
